@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  fireworks-web:
+    container_name: traffic-waster
+    ports:
+      - "23456:80"
+    image: 'liuzy/traffic-waster'
